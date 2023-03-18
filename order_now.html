@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>order_now</title>
+</head>
+<body>
+    <hr size="10" noshade="5" style="color:gold">
+    <h1 style="color:rgb(86, 79, 79); font-size:60px;" align="center">CHATTERJEE<br>TAILORING<br>SERVICE</h1>
+    <hr size="10" noshade="5" style="color:gainsboro">
+    <h1 style="color:red;font-size:50px ;" align="center"><i><b>Fill up the below given form to place order!!</b></i></h1>
+    <p style="color:blue;font-size:30px;" align="center" >(Note* : <i>field with <b>* mark</b> are mandatory to be filled up.</i>)</p>
+    <form action="mailto:surjochattopadhyay@gmail.com" method="post" enctype="text/plain">
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    <p style="color:rgb(86, 79, 79); font-size:30px">Name* : <input type="text" name="name" id="name" required ></p>
+                </td>
+                <td>
+                    <p style="color:rgb(86, 79, 79); font-size:30px">Mobile No* : <input type="number" name="number" id="number" required></p>
+                </td>
+                <td>
+                    <p style="color:rgb(86, 79, 79); font-size:30px">Pincode : <input type="number" name="pincode" id="pincode"></p>
+                </td>
+                <td rowspan="6">
+                  <img src="order-now.avif" height="750" width="400">  
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="color:rgb(86, 79, 79); font-size:30px">Date of Delivery* : <input type="date" required></p>
+                </td>
+                <td>
+                    <p style="color:rgb(86, 79, 79); font-size:30px">Email : <input type="email"></p>
+                </td>
+                <td>
+                    <p style="color:rgb(86, 79, 79); font-size:30px">Password : <input type="password"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend style="color:rgb(86, 79, 79); font-size:30px">Gender* </legend>
+                            <p style="color:rgb(86, 79, 79); font-size:25px"><input type="radio" name="gender" id="male" required value="male">Male</p>
+                            <p style="color:rgb(86, 79, 79); font-size:25px"><input type="radio" name="gender" id="female" required value="female">Female</p>
+                    </fieldset>
+                </td>
+                <td>
+                    <select name="stitch type">
+                        <option value="">--Stitch type--</option>
+                        <option value="blowse stitch">Blowse Stitch</option>
+                        <option value="kurta stitch">Kurta Stitch</option>
+                        <option value="bottom stitch">Bottom Stitch</option>
+                        <option value="salwar suit stitch">Salwar Suit Stitch</option>
+                        <option value="gown stitch">Gown Stitch</option>
+                        <option value="Semi Stitched Ghagra">Semi Stitched Ghagra</option>
+                        <option value="Kids Wear stitching">Kids wear stitch</option>
+                        <option value="Semi western wear">Semi western wear</option>
+                    </select>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend style="color:rgb(86, 79, 79); font-size:30px">Give feedback if purchased earlier!!</legend>
+                        <p style="color:rgb(86, 79, 79); font-size:25px"><input type="radio" name="feedback" id="feedback" value="good" >  Good</p>
+                        <p style="color:rgb(86, 79, 79); font-size:25px"><input type="radio" name="feedback" id="feedback" value="need to be improved">  Need to pe improved</p>
+                        <p style="color:rgb(86, 79, 79); font-size:25px"><input type="radio" name="feedback" id="feedback" value="bad">  Bad</p>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p style="color:rgb(86, 79, 79); font-size:30px">Address* :  <textarea cols="100" rows="5" required name="address"></textarea></p>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend style="color:rgb(86, 79, 79); font-size:30px">Payment Method</legend>
+                        <p style="color:rgb(86, 79, 79); font-size:25px"><input type="radio" name="payment" id="payment" value="UPI">  UPI</p>
+                        <p style="color:rgb(86, 79, 79); font-size:25px"><input type="radio" name="payment" id="payment" value="CASH">  CASH</p>
+                    </fieldset>
+                    
+                </td>
+                
+
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Place Order">
+                </td>      
+                <td>
+                    <a href="index.html"><button type="button" style="color:rgb(86, 79, 79); font-size:30px">Home page</button></a>
+                </td>
+                <td>
+                    <center> 
+                      <input type="reset" value="Reset">
+                    </center>
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>
